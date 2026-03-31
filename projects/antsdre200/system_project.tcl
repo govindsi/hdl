@@ -7,6 +7,7 @@ set p_device "xc7z020clg400-2"
 adi_project antsdre200
 adi_project_files antsdre200 [list \
   "$ad_hdl_dir/library/common/ad_iobuf.v" \
+  "$ad_hdl_dir/library/util_cdc/sync_event.v" \
   "system.xdc" \
   "ppsloop.v" \
   "ltc2630_spi.v" \
