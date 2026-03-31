@@ -12,6 +12,7 @@ adi_project_files antsdre200 [list \
   "ltc2630_spi.v" \
   "system_constr.xdc" \
   "./ip/gen_clks/gen_clks.xci" \
+  "$ad_hdl_dir/library/util_cdc/sync_event.v" \
   "$ad_hdl_dir/library/common/ad_iobuf.v"]
 
 set_property is_enabled false [get_files  *system_sys_ps7_0.xdc]
